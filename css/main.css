@@ -1,10 +1,14 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    font-size: 12rem;
 }
 
 html {
-    font-family: 'Poiret One', cursive;
-    font-size: 16px;
+    /* font-family: 'Poiret One', cursive; */
+    /* font-size: 16px; */
 }
 
 body {
@@ -22,7 +26,7 @@ body {
 }
 
 .nav-item {
-    border: 1px solid #343A40;
+    border: 1px solid #343A40; /* Match bkg color to make invisible */
 }
 
 .nav-item:hover {
@@ -32,4 +36,18 @@ body {
 
 .nav-item:active {
     background-color: #222529;
+}
+
+footer {
+    background-color: #343A40;
+    color: #9A9DA0;
+    text-align: center;
+}
+
+a {
+    color: #9A9DA0;
+}
+
+a:hover {
+    color: #DBDBDB;
 }
