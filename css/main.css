@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+}
+
+body {
+    /* background-image: url("../images/background.png"); */
+}
+
+.navbar-brand {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+}
+
+.nav-item {
+    border: 1px solid #343A40;
+}
+
+.nav-item:hover {
+    border: 1px solid #CCCECF;
+    border-radius: 5px;
+}
+
+.nav-item:active {
+    background-color: #222529;
+}
