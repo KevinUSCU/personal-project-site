@@ -8,7 +8,12 @@ html {
 }
 
 body {
-    /* background-image: url("../images/background.png"); */
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px #000;
 }
 
 .navbar-brand {
