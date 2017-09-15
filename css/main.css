@@ -39,22 +39,25 @@ body {
     box-shadow: 0 2px 5px #000;
 }
 
-#p1 {
-    background-image: url("../images/yulia-sobol-71291.jpg");
+#p1,
+#p2,
+#p3 {
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+    min-height: 300px;
+}
+
+#p1 {
+    background-image: url("../images/yulia-sobol-71291.jpg");
 }
 
 #p2 {
     background-image: url("../images/andrew-neel-213136.jpg");
-    background-size: cover;
-    background-position: -12px -4px;
 }
 
 #p3 {
     background-image: url("../images/andrew-pons-57133.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 #kevin {
