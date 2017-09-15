@@ -57,6 +57,17 @@ body {
     background-position: center;
 }
 
+#kevin {
+    width: 100%;
+    border: 2px solid #343A40;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px #000;
+}
+
+.progress {
+    margin: 10px 0;
+}
+
 footer {
     background-color: #343A40;
     color: #9A9DA0;
