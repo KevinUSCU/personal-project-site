@@ -39,6 +39,24 @@ body {
     box-shadow: 0 2px 5px #000;
 }
 
+#p1 {
+    background-image: url("../images/yulia-sobol-71291.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#p2 {
+    background-image: url("../images/andrew-neel-213136.jpg");
+    background-size: cover;
+    background-position: -12px -4px;
+}
+
+#p3 {
+    background-image: url("../images/andrew-pons-57133.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 footer {
     background-color: #343A40;
     color: #9A9DA0;
