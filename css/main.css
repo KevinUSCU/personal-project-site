@@ -1,18 +1,5 @@
-* {
-    /* box-sizing: border-box; */
-}
-
-h1 {
-    font-size: 12rem;
-}
-
-html {
-    /* font-family: 'Poiret One', cursive; */
-    /* font-size: 16px; */
-}
-
 body {
-    background-image: url("../images/background.png");
+    background-image: url("../images/light-wool.png");
     background-attachment: fixed;
 }
 
@@ -38,10 +25,21 @@ body {
     background-color: #222529;
 }
 
+.jumbotron {
+    margin-top: 100px;
+    box-shadow: 0 2px 5px #000;
+    color: #343A40;
+}
+
+.sidesplash {
+    width: 100%;
+}
+
 footer {
     background-color: #343A40;
     color: #9A9DA0;
     text-align: center;
+    box-shadow: 0 -2px 5px #000;
 }
 
 a {
