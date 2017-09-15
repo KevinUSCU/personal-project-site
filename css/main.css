@@ -26,13 +26,17 @@ body {
 }
 
 .jumbotron {
-    margin-top: 100px;
     box-shadow: 0 2px 5px #000;
     color: #343A40;
 }
 
 .sidesplash {
     width: 100%;
+}
+
+.project {
+    border: 1px solid #343A40;
+    box-shadow: 0 2px 5px #000;
 }
 
 footer {
