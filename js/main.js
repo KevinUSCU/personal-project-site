@@ -1,13 +1,4 @@
-var wrap = $("#wrap");
-console.log(wrap);
-wrap.on("scroll", function(e) {
-    
-  if (this.scrollTop > 0) {
-    wrap.addClass("title-fixed");
-    console.log("more!");
-  } else {
-    wrap.removeClass("title-fixed");
-    console.log("less!");
-  }
-  
-});
+// Ping Heroku backends to wake them up for live site links
+fetch('https://dashdash-frontend.herokuapp.com/', {})
+fetch('https://dashdash-server.herokuapp.com/', {})
+fetch('https://kevinuscu-moodshrooms-server.herokuapp.com/', {})

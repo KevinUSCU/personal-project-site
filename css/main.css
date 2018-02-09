@@ -36,28 +36,39 @@ body {
 
 .project {
     border: 1px solid #343A40;
+    padding: 2%;
     box-shadow: 0 2px 5px #000;
 }
 
 #p1,
 #p2,
-#p3 {
-    background-size: cover;
+#p3,
+#p4 {
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     max-width: 100%;
     min-height: 300px;
 }
 
 #p1 {
-    background-image: url("../images/yulia-sobol-71291.jpg");
+    background-image: url("../images/quoi-screenshot.png");
+    background-color: #ffc400;
 }
 
 #p2 {
-    background-image: url("../images/andrew-neel-213136.jpg");
+    background-image: url("../images/moodshrooms-screenshot.png");
+    background-color: #343A40;
 }
 
 #p3 {
-    background-image: url("../images/andrew-pons-57133.jpg");
+    background-image: url("../images/dashdash-screenshot.png");
+    background-color: #ffc400;
+}
+
+#p4 {
+    background-image: url("../images/form-guard-screenshot.png");
+    background-color: #343A40;
 }
 
 #kevin {
@@ -84,4 +95,12 @@ a {
 
 a:hover {
     color: #DBDBDB;
+}
+
+.project.bg-warning a {
+    color: #52565a;
+}
+
+.project.bg-warning a:hover {
+    color: rgb(120, 125, 131);
 }
